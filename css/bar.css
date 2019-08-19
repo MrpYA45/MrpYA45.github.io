@@ -1,0 +1,42 @@
+nav {
+    position: fixed;
+    background: #aeea00;
+    height: 40px;
+    width: inherit;
+    top: 15px;
+    z-index: 100;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+nav ul {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+    height: 40px;
+    width: calc(100% / 3);
+    text-align: center;
+    border-right: 2px solid #FFF;
+}
+
+nav ul li:last-child {
+    border-left: none;
+}
+
+a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+nav li:hover {
+    background: rgba(255,255,0,0.3);
+    border-bottom: 2px solid brown;
+}

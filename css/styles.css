@@ -1,0 +1,32 @@
+@import url(bar.css);
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing:	border-box;
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+article {
+    position: relative;
+    display: inherit;
+    height: 3000px;
+    top: 70px;
+}
+
+footer {
+    text-align: center;
+}
+
+@media (min-width:1024px) {
+    body {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
