@@ -2,9 +2,12 @@ const COLORS = {green: '#AEEA00', purple: '#AA00FF', orange: '#FF6D00', blue: '#
 
 const changeColor = (color) => {
     let elements = document.getElementsByClassName('custom-color-style')
-    for(i=0; i<elements.length; i++) {
-        let element = elements[i]
+    for(let element of elements) {
         element.style.background = color
+    }
+    let icon_elements = document.getElementsByClassName('custom-color-style-icons')
+    for(let icon_element of icon_elements) {
+        icon_element.style.color = color;
     }
     return color
 }
