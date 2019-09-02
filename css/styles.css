@@ -1,4 +1,5 @@
 @import url(bar.css);
+@import url(color-changer.css);
 
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -13,15 +14,29 @@ body {
     margin: 0 auto;
 }
 
-article {
+main {
     position: relative;
-    display: inherit;
-    height: 3000px;
     top: 70px;
 }
 
+article {
+    height: 300px;
+}
+
 footer {
+    position: relative;
     text-align: center;
+    display: inline;
+    top: 60px;
+}
+
+#social-icons-container {
+    list-style: none;
+    font-size: 24px;
+}
+
+.social-icons {
+    text-decoration: none;
 }
 
 @media (min-width:1024px) {

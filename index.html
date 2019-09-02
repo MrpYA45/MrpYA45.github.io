@@ -2,8 +2,9 @@
 <html>
     <head>
         <title>MrpYA45 Portfolio</title>
+        <link rel="stylesheet" href="icons/style.css">
         <link rel="stylesheet" href="css/styles.css">
-        <base href="https://mrpya45.github.io">
+        <-base href="https://mrpya45.github.io">
         <meta charset="utf-8">
         <meta name="description" content="MrpYA45 Portfolio">
         <meta name="author" content="MrpYA45">
@@ -12,7 +13,7 @@
     <body>
         <header>
         </header>
-        <nav class="bar">
+        <nav class="bar custom-color-style">
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="#">About Me</a></li>
@@ -24,18 +25,24 @@
                 <h1>MrpYA45 Website</h1>
                 <p>I'm hosted with GitHub Pages.</p>
             </article>
+            <hr>
             <aside>
+                <ul id="color-changer-selector">
+                    <li><div id="color-changer-green" class="color-changer"></div></li>
+                    <li><div id="color-changer-purple" class="color-changer"></div></li>
+                    <li><div id="color-changer-orange" class="color-changer"></div></li>
+                    <li><div id="color-changer-blue" class="color-changer"></div></li>
+                </ul>
             </aside>
             <hr>
         </main>
         <footer>
-            <ul class="social-icons">
-                <il><a></a></il>
-                <il><a></a></il>
-                <il><a></a></il>
-                <il><a></a></il>
+            <ul id="social-icons-container">
+                <li><a class="icon-twitter custom-color-style social-icons" href="" target="_blank"></a></li>
+                <li><a class="icon-github custom-color-style social-icons" href="" target="_blank"></a></li>
             </ul>
             <p>&copy;2019 by MrpYA45. All rights reserved.</p>
         </footer>
+        <script src="scripts/colorizer.js"></script>
     </body>
 </html>

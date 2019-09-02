@@ -28,7 +28,7 @@ nav ul li:last-child {
     border-left: none;
 }
 
-a {
+.bar a {
     display: block;
     height: 40px;
     line-height: 40px;

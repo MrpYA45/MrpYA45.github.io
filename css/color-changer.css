@@ -1,0 +1,30 @@
+.color-changer {
+    height: 50px;
+    width: 50px;
+    border: 5px solid black;
+    border-radius: 50%;
+    margin: 12px;
+    cursor: pointer;
+}
+
+#color-changer-selector {
+    justify-content: center;
+    list-style: none;
+    display: flex;
+}
+
+#color-changer-green {
+    background-color: #aeea00;
+}
+
+#color-changer-purple {
+    background-color: #AA00FF;
+}
+
+#color-changer-orange {
+    background-color: #FF6D00;
+}
+
+#color-changer-blue {
+    background-color: #00B8D4;
+}
